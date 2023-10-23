@@ -80,6 +80,11 @@
 // {
 //     Console.WriteLine($"{number} -> да");
 // }
+// else if(number < 0)
+// {
+//     Console.WriteLine("Вы ввели отрицательное значение, такого дня недели нет!");
+// }
+
 // else
 // {
 //     Console.WriteLine($"{number} -> нет");
