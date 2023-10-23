@@ -42,19 +42,46 @@
 //     Console.WriteLine("Третьей цифры нет");
 // }
 
+
+// решение которое нужно было предоставить)) но мне показалось что через цикл веселее
+
+// Console.Write("Введите число: ");
+// string stringNumber = Console.ReadLine();
+//  Int64 number;                                   // выбрав int64 увеличил память,  чтобы избежать если пользователь введет значение больше int32
+// bool isNumber = Int64.TryParse(stringNumber, out number);
+// if(isNumber && stringNumber.Length >= 3)
+// {
+//     Console.WriteLine($"{stringNumber} -> {stringNumber[2]}");
+// }
+// else  if(isNumber && stringNumber.Length < 2)
+//     {
+//         Console.WriteLine("Вы ввели одинарное число !");
+//     }
+// else if(isNumber && stringNumber.Length >= 2)
+// {
+   
+//     Console.WriteLine($"{stringNumber} -> третьей цифры нет");
+// }
+// else
+// {
+//     Console.WriteLine("В строчке присутсвуют буквы! ");
+// }
+
+
+
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 // 6 -> да
 // 7 -> да
 // 1 -> нет
 
-Console.Write("Введите цифру дня недели, чтобы узнать является ли он выходным : ");
-int number = Convert.ToInt32(Console.ReadLine());
-if(number == 7 || number == 6)
-{
-    Console.WriteLine($"{number} -> да");
-}
-else
-{
-    Console.WriteLine($"{number} -> нет");
-}
+// Console.Write("Введите цифру дня недели, чтобы узнать является ли он выходным : ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if(number == 7 || number == 6)
+// {
+//     Console.WriteLine($"{number} -> да");
+// }
+// else
+// {
+//     Console.WriteLine($"{number} -> нет");
+// }
 
