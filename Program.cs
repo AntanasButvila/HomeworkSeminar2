@@ -24,3 +24,20 @@
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
+
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+if(number >= 100)
+{
+    while(number >= 1000)
+    {
+        number /= 10;
+       
+    }
+    int thirdDigit = number % 10;
+    Console.WriteLine($"{number} -> {thirdDigit}");
+}
+else
+{
+    Console.WriteLine("Третьей цифры нет");
+}
