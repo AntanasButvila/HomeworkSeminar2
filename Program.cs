@@ -47,14 +47,14 @@
 // 7 -> да
 // 1 -> нет
 
-// Console.Write("Введите цифру дня недели, чтобы узнать является ли он выходным : ");
-// int number = Convert.ToInt32(Console.ReadLine());
-// if(number == 7 || number == 6)
-// {
-//     Console.WriteLine($"{number} -> да");
-// }
-// else
-// {
-//     Console.WriteLine("нет");
-// }
+Console.Write("Введите цифру дня недели, чтобы узнать является ли он выходным : ");
+int number = Convert.ToInt32(Console.ReadLine());
+if(number == 7 || number == 6)
+{
+    Console.WriteLine($"{number} -> да");
+}
+else
+{
+    Console.WriteLine($"{number} -> нет");
+}
 
